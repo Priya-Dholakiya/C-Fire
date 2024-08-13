@@ -1,0 +1,62 @@
+#include <stdio.h>
+#include <conio.h>
+
+main()
+{
+      int s;
+      char grade;
+      clrscr();
+
+      printf("Enter your score(1 to 100):");
+      scanf("%d",&s);
+
+     grade = (s>=90)?'A':
+      (s>=80)?'B':
+      (s>=70)?'C':
+      (s>=60)?'D':
+      (s>=50)?'E':'F';
+
+
+      printf("Your grade is: %c\n",grade);
+
+      switch(grade)
+      {
+	  case 'A':
+		printf("Excellent work!\n");
+		break;
+	  case 'B':
+		 printf("Well Done!\n");
+		 break;
+	  case 'c':
+		printf("Good Job!\n");
+		break;
+	  case 'D':
+		printf("You Passed,but you could do better...\n');
+		break;
+	  case 'E':
+		printf("You Passed,but try harder newt time...\n");
+		break;
+	  case 'F':
+		printf("Sorry,You failes...\n");
+		break;
+		default:
+		printf("Invalid Grade...\n");
+		break;
+       }
+       if(grade>='A'&& grade<='D')
+	 {
+		printf("Congratulations ! You are eligible for the next level...\n");
+	 }
+       else if(grade =='F')
+       {
+	printf("Please Try Again next time...\n");
+       }
+
+
+
+
+
+
+	getch();
+}
+
