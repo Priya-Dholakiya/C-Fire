@@ -31,7 +31,7 @@ main()
 		printf("Good Job!\n");
 		break;
 	  case 'D':
-		printf("You Passed,but you could do better...\n');
+		printf("You Passed,but you could do better...\n");
 		break;
 	  case 'E':
 		printf("You Passed,but try harder newt time...\n");
@@ -51,6 +51,11 @@ main()
        {
 	printf("Please Try Again next time...\n");
        }
+	   else
+	   {
+		printf("Undefine value...\n");
+	   }
+
 
 
 

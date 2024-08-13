@@ -51,6 +51,11 @@ main()
        {
 	printf("Please Try Again next time...\n");
        }
+	   else
+	   {
+		printf("Undefine value...\n");
+	   }
+
 
 
 

@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <conio.h>
+
+main()
+{
+	int a;
+	int b;
+	int c;
+	int Ans;
+
+	clrscr();
+		  printf("Enter the value of First angle\t:");
+		  scanf("%d",&a);
+		  printf("Enter the value of Secound angle\t:");
+		  scanf("%d",&b);
+	Ans=180 - (a+b);
+		printf("VAlue Of Third Angle 180 - (%d+%d)\t:",a,b);
+		printf("%d",Ans);
+
+	getch();
+}
