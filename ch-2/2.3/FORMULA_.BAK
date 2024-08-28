@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <conio.h>
+
+main()
+{
+	int b,h;
+	int Ans;
+
+	clrscr();
+		printf("Enter the value of Height and Wigth\t:");
+		scanf("%d,%d",&b,&h);
+
+	Ans=(b*h)/2;
+		printf("Your Ans is\t:%d",Ans);
+
+
+	getch();
+}

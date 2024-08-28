@@ -1,0 +1,42 @@
+#include <stdio.h>
+#include <conio.h>
+
+main()
+{       int a,b,c;
+	clrscr();
+		printf("Value of a is :");
+		scanf("%d",&a);
+		printf("VAlue of b is : ");
+		scanf("%d",&b);
+		printf("Value of c is :");
+		scanf("%d",&c);
+
+	clrscr();
+	if(a=b && b==c && a==c)
+	{
+		clrscr();
+			printf("All Value is sam to sam...");
+	}
+	else if (a==b)
+	{
+		clrscr();
+			printf("a And b are sam...");
+	}
+	else if(b==c)
+	{
+		clrscr();
+			printf("b And c are sam...");
+	}
+	else if(a==c)
+	{
+		clrscr();
+	}                printf("a And c are sam...");
+
+	else
+	{
+		clrscr();
+			printf("undifine value...");
+	}
+
+
+}

@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <conio.h>
+
+main()
+{
+	int m,s,e;
+	float Ans;
+
+	clrscr();
+		printf("Enter your Maths marks out of 100 :");
+		scanf("%d",&m);
+		printf("Enter your Science marks out of 100 :");
+		scanf("%d",&s);
+		printf("Enter your English marks out of 100 :");
+		scanf("%d",&e);
+
+	Ans=(m+s+e)*100/300;
+
+		printf("Your Total marks is :%.2f",Ans);
+
+	getch();
+}

@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <conio.h>
+
+main()
+{
+	int max;
+
+	clrscr();
+		printf("Enter max number !");
+		scanf("%d",&max);
+
+		printf("\n\n");
+
+	if(max > 100);
+	{
+		printf("Your value is maximum...");
+	}
+	else
+	{
+		printf("Your value is minimum...");
+	}
+
+	getch();
+}

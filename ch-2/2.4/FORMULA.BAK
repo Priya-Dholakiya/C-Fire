@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <conio.h>
+
+main()
+{
+
+	int Ans,x;
+	int p=10;
+	int r=5;
+	int n=15;
+
+	clrscr();
+		printf("Enter the value of x :");
+		scanf("%d",&x);
+
+	Ans=p*x*r*x*n/100
+		printf("Your Answer is :%d",Ans);
+
+
+	getch();
+}

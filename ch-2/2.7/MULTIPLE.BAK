@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <conio.h>.
+
+main()
+{
+
+	clrscr();
+		printf("----------");
+		printf("|        |");
+		printf("| 5*5=25 |");
+		printf("|        |");
+		printf("----------");
+	getch();
+}
