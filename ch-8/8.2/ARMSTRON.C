@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <conio.h>
+
+main()
+{
+      int a=0,n,b;
+      clrscr();
+		printf("Enter anu number :");
+		scanf("%d",&n);
+
+	while(a!=0)
+	{
+		b=n%10;
+		a+=b*b*b;
+		n/=10;
+	}
+	if(a==n)
+		printf("%d is an Armstrong Number..",n);
+		printf("%d is not an Armstrong Number..",n);
+
+      getch();
+}

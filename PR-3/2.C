@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <conio.h>
+
+main()
+{
+	 int n,l=0;
+
+	clrscr();
+		printf("Enter Any Number :");
+		scanf("%d",&n);
+
+			while(n!=0)
+			{
+				n/=10;
+				l++;
+			}
+
+			printf("Thre Are %d Digit...",l);
+
+	getch();
+}
