@@ -9,6 +9,12 @@ main()
 		printf("Enter Any Number :");
 		scanf("%d",&n);
 
+	if(n>=0 && n<=9)
+	{
+		printf("Your Input Value is Single Digit : %d",n);
+	}
+	else
+	{
 		digit=n%10;
 
 			while(n>=10)
@@ -18,5 +24,7 @@ main()
 		sum=n+digit;
 			printf("%d+%d=%d",n,digit,sum);
 
+	}
+		
 	getch();
 }
