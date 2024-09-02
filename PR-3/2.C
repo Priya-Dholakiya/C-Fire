@@ -15,7 +15,7 @@ main()
 				l++;
 			}
 
-			printf("Thre Are %d Digit...",l);
+			printf("Three Are %d Digit...",l);
 
 	getch();
 }
