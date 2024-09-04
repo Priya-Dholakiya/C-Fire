@@ -12,7 +12,7 @@ main()
 		scanf("%d",&c);
 
 	clrscr();
-	if(a=b && b==c && a==c)
+	if(a==b && b==c && a==c)
 	{
 		clrscr();
 			printf("All Value is sam to sam...");
