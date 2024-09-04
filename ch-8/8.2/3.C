@@ -9,7 +9,7 @@ main()
 			printf("Enter any Number\t:");
 			scanf("%d",&n);
 
-		while(i<=10)
+		while(i<=n)
 		{
 			printf("%d * %d=%d\n",n,i,n * i);
 			i++;
