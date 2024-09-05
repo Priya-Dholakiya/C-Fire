@@ -9,13 +9,13 @@ main()
 		printf("Enter Secound Number :");
 		scanf("%d",&b);
 
-		//Before Swapping...
-		printf("A=%d\nB=%d\n",a,b);
+		printf("//Before Swapping...\n");
+		printf("A=%d\nB=%d\n\n",a,b);
 
-		//After Swapping...
-		a=a^b;
-		b=a^b;
-		a=a^b;
+		printf("//After Swapping...\n");
+		a=a*b;
+		b=a/b;
+		a=a/b;
 		printf("A=%d\nB=%d",a,b);
 
 
