@@ -19,7 +19,7 @@ main()
 			i++;
 
 
-		}while(1<=n);
+		}while(i<=n);
 
 		printf("Sum Of all odd Number between 1 to %d:%d\n",n,sum);
 
