@@ -19,7 +19,8 @@ main()
 				scanf("%d",&a[i][j]);
 			}
 				printf("\n");
-		}	
+		}
+
 	int r,c;
 	int rowsum=0;
 	printf("Enter the Num Of Row:");
@@ -36,7 +37,7 @@ main()
 		}
 		printf("\n");
 	}
-	printf("The Sum Of Row : %d\n\n",rowsum);
+	
 	int colsum=0;
 	printf("Enter the Num Of Column:\n");
 	scanf("%d",&c);
@@ -53,4 +54,5 @@ main()
 		printf("\n");
 	}
 	printf("\nThe sum Of Column : %d\n",colsum);
+	printf("The Sum Of Row : %d\n\n",rowsum);
 }
