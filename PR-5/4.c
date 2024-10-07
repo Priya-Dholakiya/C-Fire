@@ -20,39 +20,37 @@ main()
 			}
 				printf("\n");
 		}	
-		printf("\n\n\t---- Original Matrix Output ----\n\n");	
-		for(i=0;i<row;i++)
+	int r,c;
+	int rowsum=0;
+	printf("Enter the Num Of Row:");
+	scanf("%d",&r);
+	for(i=0;i<row;i++)
+	{
+		for(j=0;j<col;j++)
 		{
-			for(j=0;j<col;j++)
+			if(i==r)
 			{
-				printf("%d ",a[i][j]);
+				printf("The Element Of Row: %d\n",a[r][j]);
+				rowsum+=a[r][j];
 			}
-				printf("\n");
 		}
-		int rowsum=0;
-		int r1,c1;
-		int colsum=0;
-		printf("Enetr the num of Row:");
-		scanf("%d",&r1);
-		printf("Enter the num of Column");
-		scanf("%d",&c1);
-		for(i=0;i<r1;i++)
+		printf("\n");
+	}
+	printf("The Sum Of Row : %d\n\n",rowsum);
+	int colsum=0;
+	printf("Enter the Num Of Column:\n");
+	scanf("%d",&c);
+	for(i=0;i<row;i++)
+	{
+		for(j=0;j<col;j++)
 		{
-			for(j=0;j<c1;j++)
+			if(j==c)
 			{
-				rowsum=rowsum+a[i][j];
+				printf(" The Element Of Column: %d",a[i][c]);
+				colsum+=a[i][c];
 			}
-			printf("\n");
 		}
-		printf("Sum of the elements in row %d is %d \n ", i, rowsum);
-		
-		for(i=0;i<r1;i++)
-		{
-			for(j=0;j<c1;j++)
-			{
-				colsum=colsum+a[j][i];
-			}
-			printf("\n");
-		}
-	printf("The sum of all the elements in column %d is %d\n ", i, colsum);
+		printf("\n");
+	}
+	printf("\nThe sum Of Column : %d\n",colsum);
 }
