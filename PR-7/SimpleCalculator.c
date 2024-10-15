@@ -50,7 +50,7 @@ void modulus()
     }
 }
 
-void main()
+int main()
  {
     int choice;
 
